@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+header {
+    background-color: black;
+    padding: 1rem 0;
+    color: #f1f1f1;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.busca {
+    position: relative;
+}
+
+.busca i {
+    position: absolute;
+    right: 0.2rem;
+    top: 0.335rem;
+    color: #333;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.busca input {
+    width: 60vw;
+    padding: 0.6rem;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 0.1);
+}
+
+.busca input:focus {
+    outline: none;
+}
+
+.icones {
+    display: flex;
+    gap: 2rem;
+}
+
+.icones i {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.icones i:hover {
+    color: purple;
+}
+
+.navegacao {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.navegacao li a {
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 10px;
+    transition: background-color 0.2s;
+    color: #f1f1f1;
+}
+
+.navegacao li a:hover {
+    background-color: purple;
+    border-radius: 5px;
+}
+
+main {
+    background-color: #ffff;
+    margin: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#inicio h2,
+#sobre h2 {
+    color: black;
+}
